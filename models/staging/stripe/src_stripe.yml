@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+    - name: stripe
+      database: acoustic-realm-340815
+      schema: dbt
+      tables:
+        - name: payment

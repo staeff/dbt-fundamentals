@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+    - name: jaffle_shop
+      database: acoustic-realm-340815
+      schema: dbt
+      tables:
+        - name: customers
+        - name: orders

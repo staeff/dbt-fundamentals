@@ -2,6 +2,7 @@ version: 2
 
 sources:
     - name: stripe
+      description: Payment data from original Postgres DB.
       database: acoustic-realm-340815
       schema: dbt
       tables:
